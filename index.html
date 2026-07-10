@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </link>
+
+</head>
+
+<body>
+
+    <div class="input-log-box">
+        <span class="log-label">Nhật ký gõ:</span>
+        <div id="live-typed-text" class="typed-stream">
+            <span class="placeholder-text">Bắt đầu gõ để ghi lại dữ liệu...</span>
+        </div>
+    </div>
+    
+    <div class="keyboard-container">
+        <div class="keyboard-row">
+            <div class="key finger-pinky-l" data-key="`">`</div>
+            <div class="key finger-pinky-l" data-key="1">1</div>
+            <div class="key finger-ring-l" data-key="2">2</div>
+            <div class="key finger-middle-l" data-key="3">3</div>
+            <div class="key finger-index-l" data-key="4">4</div>
+            <div class="key finger-index-l" data-key="5">5</div>
+            <div class="key finger-index-r" data-key="6">6</div>
+            <div class="key finger-index-r" data-key="7">7</div>
+            <div class="key finger-middle-r" data-key="8">8</div>
+            <div class="key finger-ring-r" data-key="9">9</div>
+            <div class="key finger-pinky-r" data-key="0">0</div>
+            <div class="key finger-pinky-r" data-key="-">-</div>
+            <div class="key finger-pinky-r" data-key="=">=</div>
+            <div class="key key-backspace finger-functional" data-key="Backspace">⌫</div>
+        </div>
+
+        <div class="keyboard-row">
+            <div class="key key-tab finger-functional" data-key="Tab">⇥</div>
+            <div class="key finger-pinky-l" data-key="q">q</div>
+            <div class="key finger-ring-l" data-key="w">w</div>
+            <div class="key finger-middle-l" data-key="e">e</div>
+            <div class="key finger-index-l" data-key="r">r</div>
+            <div class="key finger-index-l" data-key="t">t</div>
+            <div class="key finger-index-r" data-key="y">y</div>
+            <div class="key finger-index-r" data-key="u">u</div>
+            <div class="key finger-middle-r" data-key="i">i</div>
+            <div class="key finger-ring-r" data-key="o">o</div>
+            <div class="key finger-pinky-r" data-key="p">p</div>
+            <div class="key finger-pinky-r" data-key="[">[</div>
+            <div class="key finger-pinky-r" data-key="]">]</div>
+            <div class="key key-backslash finger-functional" data-key="\">\</div>
+        </div>
+
+        <div class="keyboard-row">
+            <div class="key key-capslock finger-functional" data-key="CapsLock">⇪</div>
+            <div class="key finger-pinky-l" data-key="a">a</div>
+            <div class="key finger-ring-l" data-key="s">s</div>
+            <div class="key finger-middle-l" data-key="d">d</div>
+            <div class="key finger-index-l" data-key="f">f</div>
+            <div class="key finger-index-l" data-key="g">g</div>
+            <div class="key finger-index-r" data-key="h">h</div>
+            <div class="key finger-index-r" data-key="j">j</div>
+            <div class="key finger-middle-r" data-key="k">k</div>
+            <div class="key finger-ring-r" data-key="l">l</div>
+            <div class="key finger-pinky-r" data-key=";">;</div>
+            <div class="key finger-pinky-r" data-key="'">'</div>
+            <div class="key key-enter finger-functional" data-key="Enter">↵</div>
+        </div>
+
+        <div class="keyboard-row">
+            <div class="key key-shift-l finger-functional" data-key="ShiftLeft">⇧</div>
+            <div class="key finger-pinky-l" data-key="z">z</div>
+            <div class="key finger-ring-l" data-key="x">x</div>
+            <div class="key finger-middle-l" data-key="c">c</div>
+            <div class="key finger-index-l" data-key="v">v</div>
+            <div class="key finger-index-l" data-key="b">b</div>
+            <div class="key finger-index-r" data-key="n">n</div>
+            <div class="key finger-index-r" data-key="m">m</div>
+            <div class="key finger-middle-r" data-key=",">,</div>
+            <div class="key finger-ring-r" data-key=".">.</div>
+            <div class="key finger-pinky-r" data-key="/">/</div>
+            <div class="key key-shift-r finger-functional" data-key="ShiftRight">⇧</div>
+        </div>
+
+        <div class="keyboard-row">
+            <div class="key key-bottom-ctrl finger-functional" data-key="ControlLeft">Ctrl</div>
+            <div class="key key-bottom-meta finger-functional" data-key="Meta">⊞</div>
+            <div class="key key-bottom-alt finger-functional" data-key="AltLeft">Alt</div>
+            <div class="key key-space finger-thumb" data-key=" ">PHÍM CÁCH</div>
+            <div class="key key-bottom-alt finger-functional" data-key="AltRight">Alt</div>
+            <div class="key key-bottom-fn finger-functional" data-key="Fn">Fn</div>
+            <div class="key key-bottom-menu finger-functional" data-key="ContextMenu">☰</div>
+            <div class="key key-bottom-ctrl finger-functional" data-key="ControlRight">Ctrl</div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
